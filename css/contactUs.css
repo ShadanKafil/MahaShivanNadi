@@ -66,12 +66,11 @@
   
   .bottomHeader-class{
   background-color: rgb(0, 0, 0);
-  opacity:0.8;
   }
   
   .bottomHeader-class a img{
   width:100px; 
-  height:100px; 
+  height:auto; 
   margin: -12px 0px;
   }
   
