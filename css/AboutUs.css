@@ -1,61 +1,61 @@
 /* Start of Section 1 */
 .top-header-row div a span {
-    font-size: 19px;
-    padding: 0px 10px;
+  font-size: 19px;
+  padding: 0px 10px;
 }
 
 .top-header-row div{
-    padding-bottom: 5px;
-    padding-top: 10px;
-    /* margin-bottom: -20px; */
+  padding-bottom: 5px;
+  padding-top: 10px;
+  /* margin-bottom: -20px; */
 }
 a:hover{
-    text-decoration: none;
-    
+  text-decoration: none;
+  
 }
 a:hover span #facebook{
-    color:rgb(59,89,152);
+  color:rgb(59,89,152);
 
 }
 a:hover span #twitter{
-    color:rgb(16, 220, 247);
+  color:rgb(16, 220, 247);
 
 }
 a:hover span #youtube{
-    color:rgb(255, 5, 5);
+  color:rgb(255, 5, 5);
 
 }
 
 a:hover span #quora{
-    color:rgb(187, 16, 16);
+  color:rgb(187, 16, 16);
 
 }
 
 a:hover span #instagram{
-    color:rgb(16, 97, 247);
+  color:rgb(16, 97, 247);
 
 }
 
 a:hover span #whatsapp{
-    color:rgb(39,150,39);
+  color:rgb(39,150,39);
 
 }
 a:hover span #telephone{
-    color:rgb(255, 38, 139);
+  color:rgb(255, 38, 139);
 
 }
 
 .topHeader-form{
-  display: inline-block;
-  margin:0px;
+display: inline-block;
+margin:0px;
 }
 
 /* End of Section 1 */
 
 /* Start of Section2 bottomHeader */
 .bottom-header-fluid{
-    padding-left: 0px;
-    padding-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .link-hover:hover{
@@ -65,30 +65,285 @@ border-radius: 5px;
 }
 
 .bottomHeader-class{
-  background-color: rgb(0, 0, 0);
-  opacity:0.8;
+background-color: rgb(0, 0, 0);
+opacity:0.8;
 }
 
 .bottomHeader-class a img{
-  width:100px; 
-  height:100px; 
-  margin: -12px 0px;
+width:100px; 
+height:100px; 
+margin: -12px 0px;
 }
 
 #navbarSupportedContent ul{
-  border-radius: 5px; 
-  font-weight: bold;
+border-radius: 5px; 
+font-weight: bold;
 }
 
 
 
 /* End of Section2 bottomHeader */
 
-
-
 /* Start of Section 1 */
-.banner-sec{
-    background-image: url('assets/Home page Banner 2.jpg');
+
+.banner-sec1{
+ background: url('../assets/pexels-kelvin-valerio-810775.jpg') no-repeat;  
+   background-size:100% 100%;
+   height: 430px;
+   width: 100%;
+   
 }
+@media screen and (max-width: 707px){
+  .banner-sec1{
+    height: 455px;
+    /* padding:0px; */
+  }
+  }
+
+  @media screen and (max-width: 576px){
+    .sec1-col2{
+      margin-top: 140px;
+    }
+  }
+  @media screen and (max-width: 391px){
+    .sec1-col2{
+      margin-top: 0px;
+      
+    }
+  }
+
+
+.sec1-col2{
+  color: black;
+  background-color:rgb(255, 245, 238, 0.9);
+  
+}
+/* @media screen and (max-width: 375px){
+  
+  .sec1-col1{
+    width: 50%
+  }
+  .sec1-col2{
+    width: 50%;
+    padding-right: 0px;
+  }
+} */
 
 /* End of Section 1 */
+
+/* Start of Section 2 */
+.sec2{
+  background-size: auto;
+ 
+}
+.sec2-head{
+  color:rgb(1,174,239);
+  text-shadow: 1px 1px  #000000;
+}
+
+.sec2-col2 img{
+  height:400px;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* 
+.parent{
+  display: inline;
+  
+  position:relative;
+  top: 0;
+  right: 0;
+  overflow: auto;
+  
+  }
+
+  .img1{
+    position: absolute;
+    top: 0px;
+    left: 168px;
+  border: 2px solid rgb(255, 187, 0);
+  border-radius: 20px;
+  width:300px;
+   height:200px;
+
+  }
+  .img2{
+    position: relative;
+    top: 167px;
+    left: 0px;
+    border: 4px solid rgb(255, 187, 0);
+    border-radius: 20px;
+    width:300px;
+    height:200px;
+  }
+
+  @media only screen and (min-width: 768px){
+    .img-sec2{
+      width: 50%;
+    }
+  } */
+
+/* End of Section 2 */
+
+/* Start of Section 3 */
+
+
+.section3-vid-para-head{
+  color: rgb(255, 187, 0);  
+  padding: 20px 0px;  
+  text-shadow: 2px 2px 2px #000000;
+  padding-bottom: 65px;
+  
+  
+}
+
+.section3-vid-para-head h2{
+  font-weight: bold;
+  font-size: 35px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.section3-vid-para-head hr{
+  height:2px;
+  border-width:0;
+  color:rgb(255, 187, 0);
+  background-color:rgb(255, 187, 0);
+  width:50%;
+}
+
+.section3-vid-para{
+  padding: 40px 0px;
+}
+
+.section3-vid-para-text h3{
+ color:rgb(1,174,239);
+ padding: 0px 30px;
+ text-shadow: 1px 1px  #000000;
+ 
+ 
+}
+
+.section3-vid-para-text p{
+  padding: 0px 30px;
+  padding-top:10px;
+  
+  font-size: 17px;
+}
+/* End of Section 3 */
+
+/* Start of Section 4 */
+.sec4{
+background: url(/assets/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+background-size: cover;
+border: 5px solid black;
+}
+.sec4-div{
+  border-right: 3px solid black;
+}
+@media only screen and (max-width: 576px){
+.sec4-div{
+  border-right: 0px solid black;
+}
+}
+
+span{
+  padding-left: 42%;
+  font-size: 40px;
+}
+
+/* End of Section 4 */
+/* Start of Section 5 */
+form{
+  background-color: rgb(255, 208, 0);
+  border-radius: 20px;
+
+}
+.form-head{
+  color: white;
+  text-shadow: 2px 2px black;
+
+}
+
+.form-row input{
+  border-radius: 20px;
+  padding:10px;
+  margin-bottom: 10px;  
+}
+.form-row select{
+border-radius: 20px;
+margin-bottom: 10px; 
+}
+.form-row textarea{
+border-radius: 30px;
+
+}
+
+.form-row {
+padding: 5px 0px;
+}
+button{
+  border-radius: 10px;
+}
+/* End of Section 5 */
+
+
+/* start of top footer */
+
+.full-footer{
+  background-color:#243d4f;
+
+}
+
+.top-footer p{
+  color: white;
+}
+
+.top-footer h3{
+  color: white;
+}
+
+.top-footer a{
+  color: white;
+}
+
+/* end of top footer */
+
+/* start of bottom footer */
+
+.bottom-footer{
+  background-color:  #031b2e;
+
+}
+
+.bottom-footer p{
+  color: white;
+  
+}
+
+/* end of bottom footer */
+
+
+#footer{
+  color: #fff;
+  background: #2c3e50;
+  padding: 10px 0px;
+}
+
+#social-icon{
+  list-style: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;   
+}
+
+#social-icons li{
+  display: inline-block;
+  padding-left: 5px;
+  }
+
+  #social-icons li a{
+      color: #fff;
+      font-size: 23px;
+  }
+/* End of footer */
