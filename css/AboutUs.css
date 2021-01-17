@@ -123,6 +123,7 @@ font-weight: bold;
 
 /* Start of Section 2 */
 .sec2{
+  background-color:  rgb(255, 187, 0);
   background-size: auto;
  
 }
@@ -132,8 +133,36 @@ font-weight: bold;
 }
 
 .sec2-col2 img{
-  height:400px;
+  height:200px; 
+  width:100%; 
+  border-radius: 10px;
+  border: 5px solid rgb(255, 187, 0);
 }
+.sec2-btn{
+  border-radius: 10px;
+  text-shadow: 1px 1px black;
+}
+
+.sec2-col2-cont{
+width: 100%;
+
+}
+
+.mosaic{
+  display: grid;
+  grid-template-rows: 160px;
+}
+
+.mosaic-item:first-of-type{
+grid-column: 2 /span 2 ;
+grid-row: 1 /span 2 ;
+}
+
+.mosaic-item:last-of-type{
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 2;
+}
+
 html{
   scroll-behavior: smooth;
 }
