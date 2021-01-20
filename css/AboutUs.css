@@ -42,6 +42,7 @@
 .sec2{
   background-color:  rgb(255, 187, 0);
   background-size: auto;
+  box-shadow: 5px 10px 8px #888888;
  
 }
 .sec2-head{
@@ -152,6 +153,10 @@ border: 5px solid black;
 /* End of Section 4 */
 
 /* Start of Section paraOnly */
+/* .section-paraonly{
+  background-color:rgb(255, 187, 0);
+} */
+
 .sectionpara-vid-para-head{
   color: rgb(255, 187, 0);  
   padding: 20px 0px;  
@@ -179,9 +184,10 @@ border: 5px solid black;
   text-shadow: 1px 1px 2px #000000;
  
 }
-.sectionpara-vid-para-text .container{
+.sectionpara-vid-para-text2 {
   border-radius: 20px;
   background-color: rgba(202, 199, 199, 0.63);
+  box-shadow: 5px 10px 8px #888888;
 }
 
 .sectionpara-vid-para{
@@ -198,7 +204,7 @@ border: 5px solid black;
 
 .sectionpara-vid-para-text p{
   padding: 0px 30px;
-  /* padding-top:10px; */
+  padding-top:10px;
   
   font-size: 17px;
 }
