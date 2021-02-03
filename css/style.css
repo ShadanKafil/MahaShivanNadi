@@ -1,3 +1,9 @@
+
+.nav-item {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
 /* Start of Section 1 */
 .top-header-row div a span {
     font-size: 19px;
@@ -15,37 +21,37 @@ a:hover {
 
 }
 
-a:hover span #facebook {
+a span #facebook {
     color: rgb(59, 89, 152);
 
 }
 
-a:hover span #twitter {
+a span #twitter {
     color: rgb(16, 220, 247);
 
 }
 
-a:hover span #youtube {
+a span #youtube {
     color: rgb(255, 5, 5);
 
 }
 
-a:hover span #quora {
+a span #quora {
     color: rgb(187, 16, 16);
 
 }
 
-a:hover span #instagram {
+a span #instagram {
     color: rgb(16, 97, 247);
 
 }
 
-a:hover span #whatsapp {
+a span #whatsapp {
     color: rgb(39, 150, 39);
 
 }
 
-a:hover span #telephone {
+a span #telephone {
     color: rgb(255, 38, 139);
 
 }
