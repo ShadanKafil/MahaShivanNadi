@@ -1,4 +1,9 @@
-#topHeader {
+.nav-item {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#top {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -14,7 +19,7 @@
   border-radius: 50%;
 }
 
-#topHeader:hover {
+#top:hover {
   background-color: #555;
 }
 
