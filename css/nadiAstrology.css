@@ -81,9 +81,11 @@
 
 .sec2-list2{
   border:1px solid grey;
-  height: 450px;
+  height: 340px;
   border-radius: 10px;
   box-shadow: 1px 1px 8px #080808;
+  padding: 30px 30px;
+  margin-top: 6.9rem;
 
 }
 
