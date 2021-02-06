@@ -387,15 +387,11 @@
 
 @media only screen and (max-width: 502px){
   .side-menubar li a span:nth-child(2){
-    width: 150px;
+    width: 170px;
   }
 }
 
-@media only screen and (max-width: 502px){
-  .side-menubar li a span:nth-child(2){
-    width: 110px;
-  }
-}
+
 
 
 #nav-tabContent-hindi {
