@@ -226,14 +226,28 @@
   /* font-size: 12px; */  
 }
 
+.sidebar-child-one-active {
+  color: white !important;
+  background-color: rgb(38,48,69);
+}
 
+.sidebar-child-two-active {
+  color: white !important;
+  box-shadow: inset 300px 0 0 0 rgb(45,74,138);
+}
 
 
 .side-menubar li:hover a span:nth-child(1){  
   color: white;
-  background-color: rgb(38,48,69);
-  
+  background-color: rgb(38,48,69);  
   /* box-shadow: inset 50px 0 0 0 blue; */
+  cursor: pointer;
+}
+
+.side-menubar li:hover a span:nth-child(2){  
+  color: white;
+  box-shadow: inset 300px 0 0 0 rgb(45,74,138);
+  /* transition-timing-function: linear; */
   cursor: pointer;
 }
 
@@ -302,20 +316,6 @@
   }
 }
 
-.side-menubar li:hover a span:nth-child(2){  
-  color: white;
-  box-shadow: inset 300px 0 0 0 rgb(45,74,138);
-  /* transition-timing-function: linear; */
-  cursor: pointer;
-}
-
-
-
-.side-menubar li a:target span:nth-child(2) {
-  color: white;
-  background-color: rgb(45,74,138) ;
-   
-}
 
 #nav-tabContent-hindi {
   display: none;
