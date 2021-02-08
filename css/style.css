@@ -46,14 +46,18 @@ a span #instagram {
 
 }
 
-a span #whatsapp {
+#whatsapp {
     color: rgb(39, 150, 39);
 
 }
 
-a span #telephone {
+#telephone {
     color: rgb(255, 38, 139);
 
+}
+
+.fa-envelope, .fa-globe-europe {
+    color: cornflowerblue;
 }
 
 .topHeader-form {
