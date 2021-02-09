@@ -34,6 +34,19 @@
   background-color:rgb(255, 245, 238, 0.9);
   
 }
+@media screen and (max-width: 805px){
+  .sec1-col2{
+    margin-top: -15px;
+    
+  }
+}
+
+@media screen and (max-width: 361px){
+  .sec1-col2{
+    margin-top: -43px;
+    
+  }
+}
 
 
 /* End of Section 1 */
