@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 
 .nav-item {
     padding-right: 15px;
@@ -167,3 +171,34 @@ a span #instagram {
 .fs-20 {
     font-size: 20px;
 }
+
+/* Start of back to top button */
+
+.to-top{
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #1f1f1f;
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
+    border: 1px solid rgb(0, 0, 0, 0.4);
+  
+}
+
+.to-top.active{
+    bottom:32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+/* End of back to top button */
