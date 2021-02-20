@@ -2,38 +2,37 @@
 
 /* Start of Section 1 */
 
-.banner-sec1{
- background: url('../assets/pexels-kelvin-valerio-810775.jpg') no-repeat;  
+ .banner-sec1{
+ background: url('../assets/aboutUs/About\ us\ slider\ 1.jpg') no-repeat;  
    background-size:100% 100%;
-   height: 430px;
-   width: 100%;
-   
+   height: 600px;
+   width: 100%;   
 }
-@media screen and (max-width: 707px){
+ @media screen and (max-width: 707px){
   .banner-sec1{
     height: 455px;
     /* padding:0px; */
   }
-  }
+  } 
 
-  @media screen and (max-width: 576px){
+    @media screen and (max-width: 576px){
     .sec1-col2{
       margin-top: 140px;
     }
-  }
-  @media screen and (max-width: 391px){
+  } 
+   @media screen and (max-width: 391px){
     .sec1-col2{
       margin-top: 0px;
       
     }
-  }
+  }  
 
 
-.sec1-col2{
+  .sec1-col2{
   color: black;
   background-color:rgb(255, 245, 238, 0.9);
   
-}
+} 
 @media screen and (max-width: 805px){
   .sec1-col2{
     margin-top: -15px;
@@ -48,6 +47,20 @@
   }
 }
 
+.carourel-img-text img{
+  height:550px;
+  
+}
+
+.carousel-caption {
+  opacity: 0.8;
+}
+
+.carousel-caption h3{
+  color:white;
+  text-shadow: 1px 1px  rgb(255, 187, 0);
+}
+
 
 /* End of Section 1 */
 
@@ -55,7 +68,7 @@
 .sec2{
   background-color:  rgb(255, 187, 0);
   background-size: auto;
-  box-shadow: 5px 10px 8px #888888;
+  /* box-shadow: 5px 10px 8px #888888; */
  
 }
 .sec2-head{

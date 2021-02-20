@@ -44,6 +44,10 @@
   button{
     border-radius: 10px;
   }
+  .sec1-col1 i.fa-whatsapp{
+    color:rgb(39, 150, 39) ;
+    font-weight: 800;
+  }
 
   /* End of section 1 */
   

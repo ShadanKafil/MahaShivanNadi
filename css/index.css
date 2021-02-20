@@ -25,11 +25,11 @@
 
 /* Start of Section 3 */
 .carourel-img-text img{
-  height:500px;
+  height:550px;
 }
 
 .carousel-caption {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .carousel-caption h3{
@@ -254,9 +254,7 @@ padding-bottom: 30px;
   
 }
 
-div.gallery {
-  /* border: 1px solid #ccc; */
-}
+
 
 div.gallery:hover {
   border:  1px solid #777;
@@ -352,6 +350,7 @@ button{
   box-sizing:border-box;
   background-color:rgb(255, 187, 0) ;
   padding-bottom: 20px;
+  border-top: 10px solid white;
 }
 
 .col-sec8 {
@@ -438,6 +437,42 @@ height: 300px;
 }
 
 /* End of map section9 */
+
+/* start of form section */
+
+.form-appointment{
+  background-color: rgb(255, 208, 0);
+  border-radius: 20px;
+
+}
+.form-head{
+  color: white;
+  text-shadow: 2px 2px black;
+
+}
+
+.form-row input{
+  border-radius: 20px;
+  padding:10px;
+  margin-bottom: 10px;  
+}
+.form-row select{
+border-radius: 20px;
+margin-bottom: 10px; 
+}
+.form-row textarea{
+border-radius: 30px;
+
+}
+
+.form-row {
+padding: 5px 0px;
+}
+.btn-submit{
+  border-radius: 10px;
+}
+
+/* End of form section */
 
    
  

@@ -1,4 +1,4 @@
-/* Start of Section 1 */
+/* Start of Section 1  */
 .sec1-NadiAstro{
     background: url(../assets/pexels-thiszun-\(follow-me-on-ig-fb\)-1164572.jpg);
     background-size: 100% 100%;
@@ -11,10 +11,10 @@
   .banner-sec1{
     height: 455px;
     /* padding:0px; */
-  }
-  }
+   } 
+   } 
 
-  @media screen and (max-width: 576px){
+ @media screen and (max-width: 576px){
     .sec1-col2{
       margin-top: 140px;
     }
@@ -45,6 +45,21 @@
    border-radius: 10px;
    border: 1px solid rgb(141, 138, 138);
 
+} 
+
+
+.carourel-img-text img{
+  height: 550px;
+  
+}
+
+.carousel-caption {
+  opacity: 0.8;
+}
+
+.carousel-caption h3{
+  color:white;
+  text-shadow: 1px 1px  rgb(255, 187, 0);
 }
 /* End of Section 1 */
 
@@ -89,8 +104,14 @@
 
 }
 
+/* .section2-bg{
+    background-color:rgba(117, 117, 115, 0.336);
+} */
 .section2-bg{
-    background-color:rgba(117, 117, 115, 0.336)
+  background-color:rgb(255, 187, 0);
+}
+.tab-content ol li{
+  color: white;
 }
 .sec2-list ul li{
     list-style: none;
@@ -108,6 +129,13 @@
   text-shadow: 1px 1px 2px  #000000;
   padding-top: 30px;
   padding-bottom: 10px;
+}
+.sec2-list3 hr{
+  height:2px;
+  border-width:0;
+  color:white;
+  background-color:white;
+  width:50%;
 }
 
 .tab-content h2{
@@ -131,14 +159,14 @@
 }
 
 .tab-content p{
- color: black ;
+ color: white ;
  /* text-shadow: 1px 1px 2px  #000000; */
  padding-left: 20px;
  padding-right: 20px;
 }
 
 .tab-content ol li{
-  color: black;
+  color: white;
   /* text-shadow: 1px 1px 2px  #000000; */
   padding-left: 20px;
   padding-right: 20px;
@@ -447,8 +475,8 @@
   .section4-vid-para-head hr{
     height:2px;
     border-width:0;
-    color: rgb(1,174,239);
-    background-color: rgb(1,174,239);
+    color: white;
+    background-color: white;
     width:50%;
   }
   
@@ -460,6 +488,11 @@
 /* End of Section 4 */
 
 /* Start of Section 5 */
+
+.sec5-col1 i.fa-whatsapp{
+  color:rgb(39, 150, 39) ;
+  font-weight: 800;
+}
  
  form{
     
@@ -475,13 +508,7 @@
 
   }
 
-  hr{
-    height:2px;
-    border-width:0;
-    color:rgb(255, 187, 0);
-    background-color:rgb(255, 187, 0);
-    width:50%;
-  }
+  
   
   
   .form-row input{
