@@ -5,6 +5,8 @@
     width: 100%;
     height:500px;
 }
+
+
    
 
 @media screen and (max-width: 707px){
@@ -111,7 +113,7 @@
   background-color:rgb(255, 187, 0);
 }
 .tab-content ol li{
-  color: white;
+  /* color: white; */
 }
 .sec2-list ul li{
     list-style: none;
@@ -159,14 +161,14 @@
 }
 
 .tab-content p{
- color: white ;
+ /* color: white ; */
  /* text-shadow: 1px 1px 2px  #000000; */
  padding-left: 20px;
  padding-right: 20px;
 }
 
 .tab-content ol li{
-  color: white;
+  
   /* text-shadow: 1px 1px 2px  #000000; */
   padding-left: 20px;
   padding-right: 20px;
