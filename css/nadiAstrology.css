@@ -112,9 +112,7 @@
 .section2-bg{
   background-color:rgb(255, 187, 0);
 }
-.tab-content ol li{
-  /* color: white; */
-}
+
 .sec2-list ul li{
     list-style: none;
     transition: all 0.5 s ease-out;
