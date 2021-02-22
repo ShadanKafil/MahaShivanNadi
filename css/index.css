@@ -348,7 +348,7 @@ button{
 /* Start of Section 8 */
 .sec8{
   box-sizing:border-box;
-  background-color:rgb(255, 187, 0) ;
+  
   padding-bottom: 20px;
   border-top: 10px solid white;
 }
@@ -371,6 +371,13 @@ height: 300px;
 
 }
 
+.sec8-text h2{
+  color:rgb(255, 187, 0);
+  padding: 0px 0px;
+  text-shadow: 1px 1px  #000000;
+
+}
+
 
 
 .sec8-text1 h3{
@@ -387,8 +394,8 @@ height: 300px;
 .sec8-text hr{
   height:2px;
   border-width:0;
-  color:white;
-  background-color:white;
+  color:rgb(255, 187, 0);
+  background-color:rgb(255, 187, 0);
   width:50%;
 }
 
@@ -414,8 +421,12 @@ height: 300px;
 
 /*Start of map section9 */
 
+.sec9{
+  background-color:rgb(255, 187, 0) ;
+}
+
 .map-col{
-  color: rgb(255, 187, 0);  
+  color: white;  
   padding: 20px 0px;  
   text-shadow: 2px 2px 2px #000000;
   padding-bottom: 65px;
@@ -431,8 +442,8 @@ height: 300px;
 .map-col hr{
   height:2px;
   border-width:0;
-  color:rgb(255, 187, 0);
-  background-color:rgb(255, 187, 0);
+  color:white;
+  background-color:white;
   width:50%;
 }
 
